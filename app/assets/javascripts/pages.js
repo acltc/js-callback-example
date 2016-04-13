@@ -21,5 +21,9 @@ function getData() {
 }
 
 function changeEmployee(divEmployee) {
-  divEmployee.style.color = 'lightgray';
+  if (divEmployee.style.color === 'lightgray') {
+    divEmployee.style.color = '';
+  } else {
+    divEmployee.style.color = 'lightgray';
+  }
 }
