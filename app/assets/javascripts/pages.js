@@ -1,8 +1,2 @@
-function changeColors() {
-  setTimeout(function() {
-    document.getElementById('first').style.color = "red";
-    setTimeout(function() {
-      document.getElementById('second').style.color = "blue";
-    }, 1000);
-  }, 1000);
-}
+var response = fetch('https://data.cityofchicago.org/resource/xzkq-xp2w.json');
+console.log(response);
