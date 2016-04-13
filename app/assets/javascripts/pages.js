@@ -1,8 +1,7 @@
 console.log("First");
 
-function test() {
+setTimeout(function() {
   console.log("Second");
-}
-setTimeout(test, 1000);
+}, 1000);
 
 console.log("Third");
