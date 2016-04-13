@@ -10,6 +10,9 @@ function getData() {
       for (var i = 0; i < data.length; i++) {
         var employee = data[i];
         htmlString += '<h2>' + employee.name + '</h2>';
+        htmlString += '<p>Title: ' + employee.job_titles + '</p>';
+        htmlString += '<p>Department: ' + employee.department + '</p>';
+        htmlString += '<p>Salary: ' + employee.employee_annual_salary + '</p>';
       }
       divEmployees.innerHTML = htmlString;
     });
