@@ -1,5 +1,6 @@
 function getData() {
   var divEmployees = document.getElementById("employees");
+  divEmployees.innerHTML = "Loading...";
 
   fetch('https://data.cityofchicago.org/resource/xzkq-xp2w.json')
     .then(function(response) {
