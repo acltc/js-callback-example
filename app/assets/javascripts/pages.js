@@ -1,7 +1,4 @@
-console.log("First");
-
-setTimeout(function() {
-  console.log("Second");
-}, 1000);
-
-console.log("Third");
+function changeColors() {
+  document.getElementById('first').style.color = "red";
+  document.getElementById('second').style.color = "blue";
+}
