@@ -3,6 +3,6 @@ console.log("First");
 function test() {
   console.log("Second");
 }
-test();
+setTimeout(test, 1000);
 
 console.log("Third");
